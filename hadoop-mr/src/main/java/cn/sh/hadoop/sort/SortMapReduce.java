@@ -17,6 +17,9 @@ import org.apache.hadoop.util.ToolRunner;
 
 import java.io.IOException;
 
+/**
+ * @author sh
+ */
 public class SortMapReduce {
 
     public static class SortMapper extends Mapper<LongWritable, Text, FlowBean, NullWritable> {

@@ -21,6 +21,8 @@ public class FlowRunner extends Configured implements Tool {
 
         job.setJarByClass(FlowRunner.class);
 
+
+
         job.setMapperClass(FlowMapper.class);
         job.setReducerClass(FlowReducer.class);
 
